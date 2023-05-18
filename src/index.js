@@ -6,4 +6,4 @@ import './index.css';
 import App from './App';
 import store from './Store/Index';
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Provider><App /></Provider>);
+root.render(<Provider store={store}><App /></Provider>);
